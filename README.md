@@ -1,8 +1,8 @@
 STATUS: Experimental
 
-# CoMakery Carbon Credit
+# FutureCarbonCredit FCO2 Carbon Credit
 
-A an ERC20 token backed by carbon credits - allows certified issuance, transfer and retirement.
+A an ERC20 token backing by carbon credits - allows certified issuance, transfer and retirement.
 
 ## How It Works
 

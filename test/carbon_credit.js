@@ -6,11 +6,15 @@ contract('CarbonCredit', function (accounts) {
   var notOwner
   var token
   var emptyAddress = web3.utils.padLeft(0x0, 40)
-  var ipfsCarbonCertificateHash = "QmcFULbtwMYLwe2cUdUvvWNQVcRsqKCVgFbaUGgseJcpsa"
 
+//set me please!~!!  TODO:
+
+//  var ipfsCarbonCertificateHash = "QmcFULbtwMYLwe2cUdUvvWNQVcRsqKCVgFbaUGgseJcpsa"
+   var ipfsCarbonCertificateHash = "<ipfs CarbonCertificateHash>"
   beforeEach(async () => {
     owner = accounts[0]
     notOwner = accounts[1]
+    //set me to change custom carbon credit name and symbol for test
     token = await CarbonCredit.new(owner, "ABC Token", "ABC")
   })
 
